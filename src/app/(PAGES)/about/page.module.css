@@ -1,0 +1,192 @@
+.main {
+    height: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+    overflow-y: auto;
+  }
+  .main::-webkit-scrollbar
+  {
+      width: 0;
+  }
+  .first,
+  .second,
+  .third {
+    width: 65%;
+    margin: 1% auto;
+  }
+  .hi {
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 1%;
+  }
+  .about {
+    margin-top: 1%;
+    font-size: 1.2rem;
+    text-align: center;
+    line-height: 1.6rem;
+  }
+  .education,
+  .skills {
+    margin-top: 5%;
+    text-transform: uppercase;
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+  }
+  .institution,
+  .location,
+  .qualification,
+  .score {
+    line-height: 2rem;
+  }
+  .institution {
+    font-size: 1.3rem;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  .location svg {
+    color: var(--accent);
+  }
+  .skills_list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .row1,
+  .row2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: 90%;
+  }
+  
+  .honeycomb {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 0;
+    transform: translateY(80px);
+    flex: 1 0 calc(25% - 10px);
+  }
+  .honeycomb_cell {
+    flex: 0 1 25%;
+    max-width: 23%;
+    aspect-ratio: 1.8/1;
+    margin: 1% 1% 7%;
+    position: relative;
+    padding: 0.5em;
+    text-align: center;
+    z-index: 1;
+    box-shadow: 0px 0px 15px 0 rgba(0, 0, 0, 0.1);
+  }
+  .honeycomb_cell_image {
+    object-fit: contain;
+    object-position: center;
+    filter: grayscale(100%);
+  }
+  .honeycomb_cell::before,
+  .honeycomb_cell::after {
+    content: "";
+  
+  }
+  .honeycomb_cell::before,
+  .honeycomb_cell::after,
+  .honeycomb_cell_image {
+    top: -50%;
+    left: 0;
+    width: 100%;
+    height: 200%;
+    display: block;
+    position: absolute;
+    clip-path: polygon(50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25%);
+    z-index: -1;
+  
+    transition: all 0.1s ease-in-out;
+  }
+  .honeycomb_cell::before {
+    background: #ffffff;
+    transform: scale(1.055);
+  }
+  .honeycomb_cell:hover .honeycomb_cell_image {
+      transform: scale(0.96);
+    filter: grayscale(0%);
+  }
+  .honeycomb_cell:hover::before {
+    background: var(--accent);
+  }
+  .honeycomb_cell:hover::after {
+    opacity: 0;
+  }
+  
+  @media (max-width: 480px) {
+    .main {
+      margin-top: 15%;
+      margin-bottom: 15%;
+    }
+    .first,
+    .second,
+    .third {
+      width: 90%;
+    }
+    .about {
+      text-align: justify;
+    }
+    .row1,
+    .row2 {
+      width: 100%;
+    }
+    .honeycomb_cell_image {
+      filter: none;
+    }
+  }
+  @media (min-width: 481px) and (max-width: 768px) {
+    .main {
+      margin-top: 15%;
+      margin-bottom: 15%;
+    }
+    .first,
+    .second,
+    .third {
+      width: 90%;
+    }
+    .about {
+      text-align: justify;
+    }
+    .row1,
+    .row2 {
+      width: 100%;
+    }
+    .honeycomb_cell_image {
+      filter: none;
+    }
+  }
+  @media (min-width: 769px) and (max-width: 1167px) {
+    .main {
+      margin-top: 15%;
+      margin-bottom: 15%;
+    }
+    .first,
+    .second,
+    .third {
+      width: 90%;
+    }
+    .about {
+      text-align: justify;
+    }
+        .row1,
+    .row2 {
+      width: 100%;
+    }
+    .honeycomb_cell_image {
+      filter: none;
+    }
+  
+  }

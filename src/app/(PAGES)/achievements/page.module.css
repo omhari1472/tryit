@@ -1,0 +1,91 @@
+.main{
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	overflow-y: auto;
+	flex-wrap: wrap;
+	margin: auto 9%;
+	padding-top: 3%;
+}
+.main::-webkit-scrollbar {
+  width: 0px;
+}
+.achievement_card{
+	position: relative;
+	margin: 1% 2%;
+	border-radius: 12px;
+	overflow:hidden;
+	transition: all 0.1s ease-in-out;
+	height: 35vh;
+	width: 40%;
+}
+
+.thumbnail_image{
+	transition: all 0.1s ease-in-out;
+}
+.achievement_title{
+	position: absolute;
+	width: 50%;
+	height: 50%;
+	top: 25%;
+	left: 25%;
+	text-align: center;
+	font-size: 1.5rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	opacity: 0;
+	transition: all 0.1s ease-in-out;
+	text-shadow: 1px 2px 4px rgba(0,0,0,0.68);
+	font-weight: bold;
+}
+.achievement_card:hover .thumbnail_image{
+	transform: scale(1.1);
+	filter: blur(5px);
+	opacity: 0.2;
+}
+.achievement_card:hover .achievement_title{
+	opacity: 1;
+}
+
+
+@media (max-width: 480px)
+{
+	.main{
+		flex-direction: row;
+		margin-top: 15%;
+		margin-bottom: 15%;
+
+	}
+	.achievement_card
+	{
+		height: 30%;
+		width: 100%;
+	}
+}
+@media (min-width: 481px) and (max-width: 768px)
+{
+	.main{
+		flex-direction: row;
+		margin-bottom: 15%;
+	}
+	.achievement_card
+	{
+		height: 40%;
+		width: 100%;
+	}
+}
+@media (min-width: 769px) and (max-width: 1167px)
+{
+
+	.main{
+		flex-direction: row;
+		margin-bottom: 15%;
+	}
+	.achievement_card
+	{
+		height: 50%;
+		width: 100%;
+	}
+}

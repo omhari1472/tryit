@@ -1,0 +1,123 @@
+.main {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow-y: auto;
+  flex-wrap: wrap;
+  margin: auto 9%;
+  padding-top: 3%;
+}
+.main::-webkit-scrollbar {
+  width: 0px;
+}
+
+/* ============================================================ */
+/* Card Styles */
+/* ============================================================ */
+.card_div {
+  width: 26%;
+  aspect-ratio: 2/1.7;
+  overflow: hidden;
+  margin: 3% 3%;
+  border-radius: 6px;
+box-shadow: rgba(255, 0, 0, 0.5) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+.card_div:hover .card_content {
+  transform: translateY(-100%);
+  background: rgba(3, 3, 3, 0.8);
+}
+.card_div:hover .card_image {
+  -webkit-filter: blur(3px);
+  -moz-filter: blur(3px);
+  -o-filter: blur(3px);
+  -ms-filter: blur(3px);
+  filter: blur(3px);
+}
+.card_div:hover img {
+  transform: scale(1.1);
+}
+.card_image {
+  height: 100%;
+  width: 100%;
+  transition: all 0.2s ease-in-out;
+	position: relative;
+}
+.card_image img {
+  object-fit: cover;
+  object-position: left;
+  transition: all 0.2s ease-in-out;
+}
+.card_content {
+  height: 100%;
+  width: 100%;
+  transition: all 0.2s ease-in-out;
+  transform: translateY(-12%);
+  background: rgba(3, 3, 3, 0.5);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  padding-left: 3%;
+  padding-right: 3%;
+  padding-top: 3%;
+  padding-bottom: 10%;
+}
+.project_title {
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  font-weight: bolder;
+}
+.project_description {
+  text-align: justify;
+  line-height: 1.2rem;
+}
+.project_links {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 10%;
+}
+.icon_project {
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+@media (max-width: 480px) {
+  .main {
+    width: 100%;
+    flex-direction: row;
+    z-index: 1;
+    margin: 15% 0;
+    padding: 0;
+  }
+  .card_div {
+    width: 85%;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+  .main {
+    flex-direction: row;
+    z-index: 1;
+    margin-top: 15%;
+    margin-bottom: 15%;
+    padding: 0;
+  }
+  .card_div {
+    width: 90%;
+  }
+}
+@media (min-width: 769px) and (max-width: 1167px) {
+  .main {
+    z-index: 1;
+    margin-top: 15%;
+    margin-bottom: 15%;
+    padding: 0;
+  }
+  .card_div {
+    width: 80%;
+  }
+}
