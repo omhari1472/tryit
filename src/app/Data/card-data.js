@@ -1,50 +1,36 @@
 export const data = [
     {
-      "title": "Hot Confessions",
-      "description": "A platform where you can liberate your thoughts, secrets, and stories without fear or judgment. Whether you have a deep, dark confession weighing on your mind or a heartwarming tale you're itching to share, Hot Confessions provides a safe and anonymous space for you to do just that",
+      "title": "Adagodord",
+      "description": "a comprehensive legal services website offering expert assistance in patent filing, confidential agreements, prior art search, patent drafting, litigation, product portfolio development, and consulting for new product portfolios.",
       "thumbnail": "/projects/hot_confessions.webp",
-      "website": "https://hot-confessions.vercel.app",
-      "github": "https://www.github.com/laughing-nerd/hot-confessions"
+      "website": "https://adagodord.com",
     },
     {
-      "title": "npx make-rest-api",
-      "description": "A REST API starter that will generate all the necessary files required to create REST API. It has support for MongoDB out of the box. The ultimate goal of this project is to prevent developers from creating a REST API from scratch. Instead, they can focus on configuring the REST API according to their needs.",
+      "title": "FINBUD",
+      "description": "a personal finance web application that uses Linear Regression and Random Forest models to optimize budget allocation based on user preferences.",
       "thumbnail": "/projects/project_npx.webp",
-      "website": "https://www.npmjs.com/package/make-rest-api",
-      "github": "https://www.github.com/laughing-nerd/make-rest-api"
+      "website": "https://finbud-finance-buddy.koyeb.app",
+      "github": "https://github.com/devaanshi15/Finbud-finance-buddy"
     },
     {
-      "title": "Cowie, Discord bot",
-      "description": "This is Cowie, an anime discord bot built with JavaScript. It can post random anime images, clips, memes and can even play music. It's music quality is as good as the other music bots available on the internet. Moderation features are yet not available",
+      "title": "VayKay",
+      "description": "A travel platform addressing authenticity, social connectivity, and content gaps through gamification, seamless booking, and personalized yearly recaps.",
       "thumbnail": "/projects/project_cowie.webp",
-      "website": "https://cowie.netlify.app",
-      "github": "https://www.github.com/laughing-nerd/cowie"
+      "website": "https://vackay-travelling-ease-site.vercel.app/index.html",
+      "github": "https://github.com/devaanshi15/wehack24/tree/main/HACKATHON"
     },
     {
-      "title": "PixaMate, Discord bot",
-      "description": "This is an AI image generating bot that uses OpenAI's API to generate AI images. I created PixaMate so that users can generate AI images for free on discord. There are several image generating bots, but all of them are paid. This bot offers you a free solution. It's not unlimited though.",
+      "title": "RentIT-BV",
+      "description": "This project demonstrates innovation in addressing real-world challenges faced by college students. A renting platform to address storage and budget constraints faced by college students, offering a wide range of items for short-term use with features like inventory management, user registration, e-booking, and real-time availability updates.",
       "thumbnail": "/projects/project_pixamate.webp",
-      "github": "https://www.github.com/laughing-nerd/pixamate"
+      "website": "https://parulchaddha.github.io/RentItShop/",
+      "github": "https://github.com/parulchaddha/RentItShop?tab=readme-ov-file"
     },
     {
-      "title": "Sort Visualizer",
-      "description": "A Command Line Sort Visualizer program created using Python. The purpose of this program is to visualize various sorting algorithms. Currently, only Bubble, Selection, Insertion and Merge sorts can be visualized using this program.",
+      "title": "IOT Projects",
+      "description": "Worked on IoT and ML projects, where I designed projects using the Bolt IoT platform. This hands-on covered fundamental IoT and ML concepts, culminating in real-life and industrial projects.",
       "thumbnail": "/projects/project_sort.webp",
-      "github": "https://www.github.com/laughing-nerd/sort-visualizer"
-    },
-    {
-      "title": "Avenir",
-      "description": "This is a website for my college's technical fest, Avenir. Built using React.js and Tailwind CSS, this website has a 98% performance(approx.) and 70% Cumulative Layout Shift. The UI is designed according to retrowave, Cyberpunk like theme. This was a group project.",
-      "thumbnail": "/projects/project_avenir.webp",
-      "website": "https://avenir.phoenixnsec.in",
-      "github": "https://github.com/Phoenix-NSEC/Avenir-Phoenix"
-    },
-    {
-      "title": "Pickup Lines API",
-      "description": "A very simple API created with express.js that is capable of providing a random pickup line everytime the /pickup endpoint is hit. I created this API so that I can use it in Cowie (my discord bot). It is currently hosted on vercel.",
-      "thumbnail": "/projects/project_pickup.webp",
-      "website": "https://pickup-api.vercel.app/",
-      "github": "https://github.com/laughing-nerd/PickupAPI"
-    },
+      "website": "https://devaanshi15.github.io/bolt-iot/"
+    }
   
   ]

@@ -53,7 +53,7 @@ export default function About() {
 			<div className={styles.first}>
 				<div className={styles.hi}>Hi there! 👋</div>
 				<div className={styles.about}>
-					I am Rituraj Paul, a tech-savvy 4th-year Electronics and Communication
+					I am Devaanshi Chaturvedi, a tech-savvy 4th-year Electronics and Communication
 					Engineering student from Netaji Subhash Engineering College. With a
 					burning passion for knowledge and a knack for tinkering with
 					cutting-edge tech, I am a full-stack web developer in the MERN stack.

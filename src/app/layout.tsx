@@ -28,7 +28,7 @@ import Image from 'next/image';
 import './globals.css'
 
 export const metadata = {
-	title: 'Rituraj Paul | Portfolio',
+	title: 'Devaanshi Chaturvedi | Portfolio',
 	description: 'This is my portfolio. Welcome to my world!',
   keywords: ["developer", "portfolio", "MERN developer", "Next.js developer", "Linux Enthusiast", "Full stack developer", "programmer", "vercel"]
 }

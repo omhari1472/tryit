@@ -11,16 +11,13 @@ const transporter = nodemailer.createTransport({
 export async function handleSubmit(formData) {
     const info = {
         from: `"<${formData.get("email")}>`,
-        to: "riturajpaul99@gmail.com",
+        to: "devaanshic1509@gmail.com",
         subject: "Someone tried to connect via portfolio🥳",
         text: `${formData.get("username")} : ${formData.get(
             "email",
         )}\n\n${formData.get("subject")}`,
     };
 
-    // transporter.sendMail(info, (error, result) => {
-    // 	if (error) console.log(error);
-    // });
 
     await new Promise((resolve, reject) => {
         transporter.sendMail(info, (err, data) => {
