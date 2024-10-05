@@ -231,7 +231,7 @@ import { motion } from 'framer-motion';
 
 export default function Home() {
   const downloadResume = () => {
-    const url = "https://drive.google.com/file/d/1vzYqi_ekLphWJTNVhc7dg-8tdbPr1Hvu/view?usp=sharing";
+    const url = "https://drive.google.com/file/d/14-naLlqPt9_FVp1pc-ilaNOw5Ehr2fA4/view?usp=sharing";
     let aTag = document.createElement("a");
     aTag.href = url;
     aTag.setAttribute("target", "_blank");
@@ -255,11 +255,11 @@ export default function Home() {
           An extremely passionate and highly motivated
         </div>
         <div className={styles.dynamic_subheading}>
-          <span>Fullstack MERN developer</span>
-          <span>REST API developer</span>
-          <span>Linux Enthusiast</span>
-          <span>Discord bot developer</span>
-          <span>Fullstack MERN developer</span>
+          <span>Developer</span>
+          <span>Developer</span>
+          <span>Developer</span>
+          <span>Developer</span>
+          <span>Developer</span>
         </div>
 
         <div className={styles.interactive_buttons}>

@@ -4,9 +4,9 @@ import { InlineIcon } from "@iconify/react";
 import { motion } from "framer-motion";
 
 export default function Footer() {
-	const github = "https://www.github.com/laughing-nerd";
-	const leetcode = "https://www.leetcode.com/riturajpaul18/";
-	const linkedin = "https://www.linkedin.com/in/rituraj-paul-5b0478233/";
+	const github = "https://github.com/devaanshi15";
+	const leetcode = "https://leetcode.com/u/dc1509/";
+	const linkedin = "https://www.linkedin.com/in/devaanshi-chaturvedi/";
 	const instagram = "https://www.instagram.com/riturajpaul18/";
 
 	return (
@@ -34,12 +34,12 @@ export default function Footer() {
 					<InlineIcon icon="bi:linkedin" className="icons" onClick={() => open(linkedin, "_blank")} />
 				</motion.div>
 
-				<motion.div
+				{/* <motion.div
 					whileHover={{ scale: 1.5 }}
 					transition={{ duration: 0.1 }}
 				>
 					<InlineIcon icon="bi:instagram" className="icons" onClick={() => open(instagram, "_blank")} />
-				</motion.div>
+				</motion.div> */}
 
 
 			</div>

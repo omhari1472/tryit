@@ -1,29 +1,29 @@
 export const education = [
 	{
 		"id": "1",
-		"institution": "Netaji Subhash Engineering College",
-		"date": "October 2020 - Present",
-		"location": "Garia, Kolkata, West Bengal, India",
-		"qualification": "B.Tech in Electronics and Communication Engineering (ECE)",
-		"score": "CGPA: 9.415",
+		"institution": "Banasthali Vidyapith",
+		"date": "Graduating 2025",
+		"location": "Tonk, Rajasthan, India",
+		"qualification": "B.Tech in Information Technology (IT)",
+		"score": "CGPA: 7.47",
 		"icon_style": "maki:college"
 	},
 		{
 		"id": "2",
-		"institution": "Mansur Habibullah Memorial School",
-		"date": "March 2020",
-		"location": "Kolkata, West Bengal, India",
-		"qualification": "Class XII (ISC)",
-		"score": "Percentage: 92.25%",
+		"institution": "Modern Public School",
+		"date": "March 2021",
+		"location": "Bhiwadi, Rajasthan, India",
+		"qualification": "Class XII (CBSE)",
+		"score": "Percentage: 80%",
 		"icon_style": "maki:school"
 	},
 		{
 		"id": "3",
-		"institution": "Mansur Habibullah Memorial School",
+		"institution": "Modern Public School",
 		"date": "March 2018",
-		"location": "Kolkata, West Bengal, India",
-		"qualification": "Class X (ICSE)",
-		"score": "Percentage: 93.6%",
+		"location": "Bhiwadi, Rajasthan, India",
+		"qualification": "Class X (CBSE)",
+		"score": "Percentage: 90%",
 		"icon_style": "maki:school"
 	}
 ]

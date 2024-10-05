@@ -53,23 +53,23 @@ export default function About() {
 			<div className={styles.first}>
 				<div className={styles.hi}>Hi there! 👋</div>
 				<div className={styles.about}>
-					I am Devaanshi Chaturvedi, a tech-savvy 4th-year Electronics and Communication
+					I am Devaanshi Chaturvedi, a tech-savvy 4th-year Information Technology
 					Engineering student from Netaji Subhash Engineering College. With a
-					burning passion for knowledge and a knack for tinkering with
-					cutting-edge tech, I am a full-stack web developer in the MERN stack.
-					When a golden opportunity arises, I am always ready to grind, level
-					up, and seize it!
+					burning passion about coding in JAVA and exploring app development using DART. 
+					I have a keen interest in AI/ML and IoT technology. I actively engage in tech communities, explore opportunities, 
+					participate in hackathons, attend conferences, and contribute to progressive community building. 
+					Eager for teamwork and driven by the desire to seize golden opportunities.
 				</div>
 			</div>
 
-			<div className={styles.second}>
+			{/* <div className={styles.second}>
 				<div className={styles.education}>
 					<InlineIcon icon="mdi:book-education"/> Education
 				</div>
 				<div>
 					<VerticalTimeline>{education.map(showTimeline)}</VerticalTimeline>
 				</div>
-			</div>
+			</div> */}
 
 			<div className={styles.third}>
 				<div className={styles.skills}>
