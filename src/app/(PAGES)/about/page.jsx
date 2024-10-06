@@ -24,21 +24,23 @@ export default function About() {
 	};
 	const showTimeline = (education) => {
 		return (
-			<VerticalTimelineElement
-				key={education.id}
-				date={education.date}
-				iconStyle={iconTimelineStyle}
-				contentStyle={contentTimelineStyle}
-				icon={<InlineIcon icon={education.icon_style} />}
-			>
-				<div className={styles.institution}>{education.institution}</div>
-				<div className={styles.location}>
-					<InlineIcon icon="ion:location" />
-					{education.location}
-				</div>
-				<div className={styles.qualification}>{education.qualification}</div>
-				<div className={styles.score}>{education.score}</div>
-			</VerticalTimelineElement>
+			<>
+				<VerticalTimelineElement
+					key={education.id}
+					date={education.date}
+					iconStyle={iconTimelineStyle}
+					contentStyle={contentTimelineStyle}
+					icon={<InlineIcon icon={education.icon_style} />}
+				>
+					<div className={styles.institution}>{education.institution}</div>
+					<div className={styles.location}>
+						<InlineIcon icon="ion:location" />
+						{education.location}
+					</div>
+					<div className={styles.qualification}>{education.qualification}</div>
+					<div className={styles.score}>{education.score}</div>
+				</VerticalTimelineElement>
+			</>
 		);
 	};
 
@@ -53,23 +55,25 @@ export default function About() {
 			<div className={styles.first}>
 				<div className={styles.hi}>Hi there! 👋</div>
 				<div className={styles.about}>
-					I am Devaanshi Chaturvedi, a tech-savvy 4th-year Information Technology
-					Engineering student from Netaji Subhash Engineering College. With a
-					burning passion about coding in JAVA and exploring app development using DART. 
-					I have a keen interest in AI/ML and IoT technology. I actively engage in tech communities, explore opportunities, 
-					participate in hackathons, attend conferences, and contribute to progressive community building. 
-					Eager for teamwork and driven by the desire to seize golden opportunities.
+					I am Devaanshi Chaturvedi, a tech-savvy 4th-year Information
+					Technology Engineering student from Netaji Subhash Engineering
+					College. With a burning passion about coding in JAVA and exploring app
+					development using DART. I have a keen interest in AI/ML and IoT
+					technology. I actively engage in tech communities, explore
+					opportunities, participate in hackathons, attend conferences, and
+					contribute to progressive community building. Eager for teamwork and
+					driven by the desire to seize golden opportunities.
 				</div>
 			</div>
 
-			{/* <div className={styles.second}>
+			<div className={styles.second}>
 				<div className={styles.education}>
-					<InlineIcon icon="mdi:book-education"/> Education
+					<InlineIcon icon="mdi:book-education" /> Education
 				</div>
 				<div>
 					<VerticalTimeline>{education.map(showTimeline)}</VerticalTimeline>
 				</div>
-			</div> */}
+			</div>
 
 			<div className={styles.third}>
 				<div className={styles.skills}>

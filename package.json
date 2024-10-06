@@ -2,11 +2,13 @@
   "name": "portfolio24",
   "version": "0.1.0",
   "private": true,
+  
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
+    
   },
   "dependencies": {
     "@iconify/react": "^5.0.1",

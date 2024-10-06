@@ -26,6 +26,7 @@ import Navbar from './components/navbar'
 import Footer from './components/footer'
 import Image from 'next/image';
 import './globals.css'
+import type { ReactNode } from 'react';
 
 export const metadata = {
 	title: 'Devaanshi Chaturvedi | Portfolio',
@@ -33,12 +34,16 @@ export const metadata = {
   keywords: ["developer", "portfolio", "MERN developer", "Next.js developer", "Linux Enthusiast", "Full stack developer", "programmer", "vercel"]
 }
 
-export default function RootLayout({ children }) {
+interface RootLayoutProps {
+  children: ReactNode;
+}
+
+export default function RootLayout({ children }: RootLayoutProps) {
 
 	return (
 		<html lang="en">
 			<body>
-					<div className="parent">
+				<div className="parent">
 					<div className="top_left_image">
 						<Image
 							src="/home/top-left.webp"
@@ -56,13 +61,10 @@ export default function RootLayout({ children }) {
 						/>
 					</div>
 
-
 					<Navbar />
 					{children}
 					<Footer />
 				</div>
-				
-
 			</body>
 		</html>
 	)
